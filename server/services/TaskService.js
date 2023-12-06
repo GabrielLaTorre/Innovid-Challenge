@@ -6,7 +6,7 @@ function getTasks() {
 
 function addTask(data) {
   Tasks.push(data)
-  return Tasks
+  return data
 }
 
 function removeTask(id) {
