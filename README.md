@@ -2,6 +2,7 @@
 
 ## INSTALLATION
 
+- This project requires Node v16 or higher
 - Clone repository ``` git clone https://github.com/GabrielLaTorre/Innovid-Challenge.git```
 - Go to Innovid-Challenge downloaded folder
 - Go to the server folder  ``` cd server ```  and run  ```npm install```
