@@ -5,10 +5,7 @@ import Task from './components/Tasks/Tasks'
 function App() {
 
   return (
-    <div className='body-container'>
-      <p className='read-the-docs'>
-        Home
-      </p>
+    <div className='container w-5/12 mt-12 flex flex-col items-center font-mono'>
       <Task/>
     </div>
   )

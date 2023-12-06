@@ -1,10 +1,11 @@
-export default function Button({ handleOnClick }) {
+export default function Button({ handleOnClick, styles, children }) {
 
   return (
-    <div>
-      <button type="button" onClick={handleOnClick}>
-        Add
+      <button 
+      className={styles}
+      type="button"
+      onClick={handleOnClick}>
+        {children}
       </button>
-    </div>
   ) 
 }

@@ -7,8 +7,8 @@ export default function TaskList({ tasks, onRemoveTask }){
 
   console.log("TASKS", tasks)
   return (
-    <div className='box-container'>
-        <ul className='box'>
+    <div className='w-full max-h-max p-0.5 bg-gradient-to-r from-green-500 via-yellow-500 to-red-500'>
+        <ul className='bg-slate-100/75 w-full h-96 overflow-auto'>
           {
             tasks.map((task) => (
                 <Task
