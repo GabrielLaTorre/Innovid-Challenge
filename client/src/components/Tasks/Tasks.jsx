@@ -40,10 +40,7 @@ const onRemoveTask = async(id) => {
   }).then(res => res.json())
 
   if(data) {
-    console.log("TO ELIMINATE", id)
-    console.log("TASKS HERE", tasks)
     const newTasks = tasks.filter((task) => task.id !== id)
-    console.log("NEW TASK", newTasks)
     setTasks(newTasks)
   }
 }
