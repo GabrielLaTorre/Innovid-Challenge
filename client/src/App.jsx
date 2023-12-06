@@ -1,11 +1,15 @@
+import './App.css'
+import Task from './components/Tasks/Tasks'
+
 function App() {
 
   return (
-    <>
-      <p className="read-the-docs">
+    <div className='body-container'>
+      <p className='read-the-docs'>
         Home
       </p>
-    </>
+      <Task/>
+    </div>
   )
 }
 
